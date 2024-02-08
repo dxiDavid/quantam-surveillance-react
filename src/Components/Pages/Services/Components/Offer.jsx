@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Offer = () => {
   return (
     <section className="container-fluid bg-offer my-5 py-5">
-      <Container py-5>
+      <Container className="py-5" >
         <Row className="gx-5 justify-content-center">
           <Col lg={7} className="text-center">
             <div className="text-center mx-auto mb-4" style={{ maxWidth: '600px' }}>
