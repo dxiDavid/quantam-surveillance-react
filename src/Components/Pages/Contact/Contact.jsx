@@ -24,10 +24,11 @@ const Contact = () => {
                 <div className="text-start">
                   <h5 className="mb-1">Call Us</h5>
                   <span>+254 715 323621</span>
+                  <span> or </span>
                   <span>+254 708 265194</span>
                 </div>
               </div>
-              <h5 className="text-center fst-italic">We will send some members of our team to survey the site and give you a fair and accurate quotation.</h5>
+              <h5 className="fst-italic">We will send some members of our team to survey the site and give you a fair and accurate quotation.</h5>
             </div>
           </Col>
         </Row>
