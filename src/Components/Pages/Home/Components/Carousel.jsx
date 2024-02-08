@@ -13,7 +13,7 @@ const Carousel = () => {
                         <div className="p-3 hero-text">
                             <h5 className="text-white text-uppercase animated bounceInDown">CCTV Benefits</h5>
                             <h1 className="display-1 text-white mb-md-4 animated zoomIn">Safe & Secure Home For Your Family</h1>
-                            <Link to="/contact" className="btn btn-primary py-md-3 px-md-5 animated slideInRight">Contact Us</Link>
+                            <Link to="/Contact" className="btn btn-primary py-md-3 px-md-5 animated slideInRight">Contact Us</Link>
                         </div>
                     </BootstrapCarousel.Caption>
                 </BootstrapCarousel.Item>
@@ -23,7 +23,7 @@ const Carousel = () => {
                         <div className="p-3 hero-text">
                             <h5 className="text-white text-uppercase animated bounceInDown">CCTV Benefits</h5>
                             <h1 className="display-1 text-white mb-md-4 animated zoomIn">24/7 Monitoring of Business Premises</h1>
-                            <Link to="/contact" className="btn btn-primary py-md-3 px-md-5 animated slideInRight">Contact Us</Link>
+                            <Link to="/Contact" className="btn btn-primary py-md-3 px-md-5 animated slideInRight">Contact Us</Link>
                         </div>
                     </BootstrapCarousel.Caption>
                 </BootstrapCarousel.Item>
@@ -33,7 +33,7 @@ const Carousel = () => {
                         <div className="p-3 hero-text">
                             <h5 className="text-white text-uppercase animated bounceInDown">CCTV Benefits</h5>
                             <h1 className="display-1 text-white mb-md-4 animated zoomIn">Prevent Theft, Vandalism and Intrusion</h1>
-                            <Link to="/contact" className="btn btn-primary py-md-3 px-md-5 animated slideInRight">Contact Us</Link>
+                            <Link to="/Contact" className="btn btn-primary py-md-3 px-md-5 animated slideInRight">Contact Us</Link>
                         </div>
                     </BootstrapCarousel.Caption>
                 </BootstrapCarousel.Item>

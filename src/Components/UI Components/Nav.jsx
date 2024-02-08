@@ -20,12 +20,12 @@ function NavBar() {
                     <Navbar.Toggle aria-controls="navbarCollapse" title="toggle navbar" />
                     <Navbar.Collapse id="navbarCollapse">
                         <Nav className="ms-auto py-0">
-                            <Nav.Link as={Link} to="/" className={`nav-link ${isNavLinkActive('/') ? 'active' : ''}`}>Home</Nav.Link>
-                            <Nav.Link as={Link} to="/about" className={`nav-link ${isNavLinkActive('/about') ? 'active' : ''}`}>About</Nav.Link>
-                            <Nav.Link as={Link} to="/Services" className={`nav-link ${isNavLinkActive('/service') ? 'active' : ''}`}>Service</Nav.Link>
-                            <Nav.Link as={Link} to="/contact" className={`nav-link ${isNavLinkActive('/contact') ? 'active' : ''}`}>Contact</Nav.Link>
-                            <Nav.Link as={Link} to="/contact" className={`nav-link nav-item nav-contact bg-green text-light mb-0 px-5 ms-lg-5 ${isNavLinkActive('/contact') ? 'active' : ''}`}>
-                                <BsTelephoneOutbound className="me-2" />
+                            <Nav.Link as={Link} to="/" className={`fw-semibold nav-link ${isNavLinkActive('/') ? 'active' : ''}`}>Home</Nav.Link>
+                            <Nav.Link as={Link} to="/About" className={`nav-link ${isNavLinkActive('/About') ? 'active' : ''}`}>About</Nav.Link>
+                            <Nav.Link as={Link} to="/Services" className={`nav-link ${isNavLinkActive('/Services') ? 'active' : ''}`}>Services</Nav.Link>
+                            <Nav.Link as={Link} to="/Contact" className={`nav-link ${isNavLinkActive('/Contact') ? 'active' : ''}`}>Contact</Nav.Link>
+                            <Nav.Link as={Link} to="/Contact" className={`nav-link nav-item nav-contact bg-green text-light mb-0 px-4 ms-lg-5 ${isNavLinkActive('/contact') ? 'active' : ''}`}>
+                                <BsTelephoneOutbound className="me-2 " />
                                 +254715323621 | +254708265194
                             </Nav.Link>
                         </Nav>

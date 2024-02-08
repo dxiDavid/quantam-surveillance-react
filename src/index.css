@@ -322,9 +322,54 @@ h6,
     max-width: 4.5rem;
 }
 
+.award{
+    font-size: 4rem;
+    align-self: center;
+}
+
+.testimonial-carousel{
+    display: grid;
+    place-items: center;
+    gap: 1rem;
+}
+
+.testimonial{
+    background: var(--primary);
+    max-width: 30rem;
+    min-height: 14rem;
+    max-height: 14rem;
+    display: grid;
+    position: relative;
+    border-radius: 2px;
+    animation: slide-left 300ms ease;
+}
+
+.testimonial-img{
+    position: absolute;
+    top: 0; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    background-color: white;
+}
+
+.testimonial-text{
+    margin-top: 3rem;
+}
+
+.testimonial-buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+}
+
+.contact-section{
+    width: inherit;
+}
+
 @media screen and (max-width:425px) {
     .contact-details{
         display: flex;
         flex-direction: column;
     }
 }
+

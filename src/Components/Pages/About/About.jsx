@@ -1,9 +1,9 @@
-
+import AboutSection from "./Components/AboutSection"
 
 export default function About(){
     return(
     <>
-        <div>Hello About</div>
+        <AboutSection/>
     </>
     )
 }
