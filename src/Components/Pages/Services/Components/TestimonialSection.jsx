@@ -43,7 +43,7 @@ const TestimonialSection = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex === testimonials.length - 1 ? 0 : prevIndex + 1));
-    }, 5000); // Change testimonial every 5 seconds
+    }, 10000); // Change testimonial every 5 seconds
     return () => clearInterval(interval);
   }, [testimonials.length]);
 
