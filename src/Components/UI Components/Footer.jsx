@@ -1,6 +1,6 @@
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import { BsGeoAlt, BsTelephone, BsEnvelopeOpen, BsTwitterX } from 'react-icons/bs';
-import { FaArrowRight, FaFacebookF, FaLinkedinIn, FaInstagram } from 'react-icons/fa';
+import { FaArrowRight, FaFacebookF, FaTiktok, FaInstagram } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 export default function Footer() {
@@ -16,15 +16,15 @@ export default function Footer() {
                                     <FaArrowRight className="text-primary me-2" />
                                     Home
                                 </Link>
-                                <Link to="/about" className="text-light mb-2 nav-link">
+                                <Link to="/About" className="text-light mb-2 nav-link">
                                     <FaArrowRight className="text-primary me-2" />
                                     About Us
                                 </Link>
-                                <Link to="/service" className="text-light mb-2 nav-link">
+                                <Link to="/Services" className="text-light mb-2 nav-link">
                                     <FaArrowRight className="text-primary me-2" />
                                     Our Services
                                 </Link>
-                                <Link to="/contact" className="text-light nav-link">
+                                <Link to="/Contact" className="text-light nav-link">
                                     <FaArrowRight className="text-primary me-2" />
                                     Contact Us
                                 </Link>
@@ -55,11 +55,11 @@ export default function Footer() {
                                 <Button title="Go to our Twitter page" variant="primary" className="btn-lg btn-lg-square rounded me-2" href="https://twitter.com/QuantamSurv" target="_blank" rel="noopener noreferrer">
                                     <BsTwitterX className="fw-normal" />
                                 </Button>
-                                <Button title="Go to our Facebook page" variant="primary" className="btn-lg btn-lg-square rounded me-2" href="#" target="_blank" rel="noopener noreferrer">
+                                <Button title="Go to our Facebook page" variant="primary" className="btn-lg btn-lg-square rounded me-2" href="https://web.facebook.com/profile.php?id=61555864221207" target="_blank" rel="noopener noreferrer">
                                     <FaFacebookF className="fw-normal" />
                                 </Button>
-                                <Button title="Go to our LinkedIn page" variant="primary" className="btn-lg btn-lg-square rounded me-2" href="#" target="_blank" rel="noopener noreferrer">
-                                    <FaLinkedinIn className="fw-normal" />
+                                <Button title="Go to our Tiktok page" variant="primary" className="btn-lg btn-lg-square rounded me-2" href="https://www.tiktok.com/@quantamsurveillance" target="_blank" rel="noopener noreferrer">
+                                    <FaTiktok className="fw-normal" />
                                 </Button>
                                 <Button title="Go to our Instagram page" variant="primary" className="btn-lg btn-lg-square rounded" href="https://www.instagram.com/quantamsurveillance/" target="_blank" rel="noopener noreferrer">
                                     <FaInstagram className="fw-normal" />
