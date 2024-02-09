@@ -1,7 +1,7 @@
 import { Container, Row } from 'react-bootstrap';
-import CCTVCard from './PricingCard';
+import PricingCard from './PricingCard';
 
-// Define an array with objects containing the number of cameras and the associated price
+
 const pricingData = [
   { cameras: 4, price: "38,000" },
   { cameras: 6, price: "55,000" },
@@ -11,9 +11,6 @@ const pricingData = [
   { cameras: 16, price: "240,000" },
 ];
 
-// Separate card component to render individual pricing cards
-
-
 const Pricing = () => {
   return (
     <>
@@ -21,11 +18,11 @@ const Pricing = () => {
         <Container>
           <div className="text-center mx-auto mb-5" style={{ maxWidth: '600px' }}>
             <h5 className="text-primary text-uppercase" style={{ letterSpacing: '5px' }}>Our Packages</h5>
-            <h1 className="display-5 mb-0">Pricing Plan For CCTV Security Services</h1>
+            <h1 className="display-5 mb-0">Pricing Plan For CCTV Installation Services</h1>
           </div>
           <Row className="g-5">
             {pricingData.map((item, index) => (
-              <CCTVCard key={index} cameras={item.cameras} price={item.price} />
+              <PricingCard key={index} cameras={item.cameras} price={item.price} />
             ))}
           </Row>
         </Container>
