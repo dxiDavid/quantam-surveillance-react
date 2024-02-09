@@ -22,7 +22,7 @@ export default function CCTVCard({ cameras, price }) {
             <p className="border-bottom border-light mb-2 pb-2">HDMI Cable</p>
           </div>
           <Button className="btn btn-primary py-2 px-4 position-absolute top-100 start-50 translate-middle">
-            <Link to="/Contact" className="nav-link">I'm Interested</Link> 
+            <Link to="/Contact" className="nav-link">Get In Touch</Link> 
           </Button>
         </div>
       </Col>
