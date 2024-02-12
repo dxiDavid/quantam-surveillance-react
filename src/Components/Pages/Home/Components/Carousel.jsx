@@ -8,7 +8,7 @@ const Carousel = () => {
         <section className="container-fluid p-0 mb-5">
             <BootstrapCarousel fade controls indicators={false}>
                 <BootstrapCarousel.Item>
-                    <img className="w-100" src="img/carousel-1.jpg" alt="Image" />
+                    <img className="w-100 carousel-image img-fluid" src="img/carousel-1.webp" alt="Image" />
                     <BootstrapCarousel.Caption className="d-flex flex-column align-items-center justify-content-center">
                         <div className="p-3 hero-text">
                             <h5 className="text-white text-uppercase animate__animated animate__bounceInDown">CCTV Benefits</h5>
@@ -18,7 +18,7 @@ const Carousel = () => {
                     </BootstrapCarousel.Caption>
                 </BootstrapCarousel.Item>
                 <BootstrapCarousel.Item>
-                    <img className="w-100" src="img/carousel-2.jpg" alt="Image" />
+                    <img className="w-100 carousel-image img-fluid" src="img/carousel-2.webp" alt="Image" />
                     <BootstrapCarousel.Caption className="d-flex flex-column align-items-center justify-content-center">
                         <div className="p-3 hero-text">
                             <h5 className="text-white text-uppercase animate__animated animate__bounceInDown">CCTV Benefits</h5>
@@ -28,7 +28,7 @@ const Carousel = () => {
                     </BootstrapCarousel.Caption>
                 </BootstrapCarousel.Item>
                 <BootstrapCarousel.Item>
-                    <img className="w-100" src="img/carousel-2.jpg" alt="Image" />
+                    <img className="w-100 carousel-image img-fluid" src="img/carousel-3.webp" alt="Image" />
                     <BootstrapCarousel.Caption className="d-flex flex-column align-items-center justify-content-center">
                         <div className="p-3 hero-text">
                             <h5 className="text-white text-uppercase animate__animated animate__bounceInDown">CCTV Benefits</h5>
@@ -38,7 +38,7 @@ const Carousel = () => {
                     </BootstrapCarousel.Caption>
                 </BootstrapCarousel.Item>
                 <BootstrapCarousel.Item>
-                    <img className="w-100" src="img/carousel-2.jpg" alt="Image" />
+                    <img className="w-100 carousel-image img-fluid" src="img/carousel-7.webp" alt="Image" />
                     <BootstrapCarousel.Caption className="d-flex flex-column align-items-center justify-content-center">
                         <div className="p-3 hero-text">
                             <h5 className="text-white text-uppercase animate__animated animate__bounceInDown">Be prepared</h5>
@@ -48,7 +48,7 @@ const Carousel = () => {
                     </BootstrapCarousel.Caption>
                 </BootstrapCarousel.Item>
                 <BootstrapCarousel.Item>
-                    <img className="w-100" src="img/carousel-2.jpg" alt="Image" />
+                    <img className="w-100 carousel-image img-fluid" src="img/carousel-8.webp" alt="Image" />
                     <BootstrapCarousel.Caption className="d-flex flex-column align-items-center justify-content-center">
                         <div className="p-3 hero-text">
                             <h5 className="text-white text-uppercase animate__animated animate__bounceInDown">Don't Wait</h5>

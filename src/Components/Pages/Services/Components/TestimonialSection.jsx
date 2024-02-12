@@ -62,7 +62,7 @@ const TestimonialSection = () => {
         </div>
         <div className="testimonial-carousel">
           <div className="testimonial text-center animate__animated animate__zoomIn" data-aos="fade" data-aos-duration="1500" data-aos-delay="50">
-            <img className="testimonial-img img-fluid mx-auto rounded-circle" src={testimonials[currentIndex].image} style={{ width: '100px', height: '100px' }} alt="client photo" />
+            <img className="testimonial-img img-fluid mx-auto rounded-circle" src="img/user-icon.webp" style={{ width: '100px', height: '100px' }} alt="client photo" />
             <div className="testimonial-text text-light p-4 mt-n5">
               <p className="">{testimonials[currentIndex].text}</p>
               <h4 className="text-truncate fw-bold">{testimonials[currentIndex].name}</h4>

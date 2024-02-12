@@ -16,7 +16,7 @@ export default function AboutSection() {
         <Row className="gx-5">
           <Col lg={5} className="mb-5 mb-lg-0" style={{ minHeight: '500px' }}>
             <div className="position-relative h-100">
-              <img className="position-absolute w-100 h-100 rounded" src="img/about.jpg" style={{ objectFit: 'cover' }} data-aos="fade-up" alt="picture of cctv cameras" />
+              <img className="position-absolute w-100 h-100 rounded" src="img/about.webp" style={{ objectFit: 'cover' }} data-aos="fade-up" alt="picture of cctv cameras" />
             </div>
           </Col>
           <Col lg={7}>
