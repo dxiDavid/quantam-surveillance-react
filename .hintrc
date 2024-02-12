@@ -1,0 +1,21 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "-webkit-text-size-adjust",
+          "text-align: -webkit-match-parent",
+          "text-underline-offset",
+          "text-decoration-skip-ink",
+          "-webkit-tap-highlight-color",
+          "-webkit-overflow-scrolling",
+          "overflow-anchor"
+        ]
+      }
+    ]
+  }
+}
