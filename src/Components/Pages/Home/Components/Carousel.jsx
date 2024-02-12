@@ -1,4 +1,6 @@
 import { Carousel as BootstrapCarousel } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'animate.css/animate.min.css'; 
 import { Link } from 'react-router-dom';
 
 const Carousel = () => {
@@ -26,7 +28,7 @@ const Carousel = () => {
                     </BootstrapCarousel.Caption>
                 </BootstrapCarousel.Item>
                 <BootstrapCarousel.Item>
-                    <img className="w-100" src="img/carousel-3.jpg" alt="Image" />
+                    <img className="w-100" src="img/carousel-2.jpg" alt="Image" />
                     <BootstrapCarousel.Caption className="d-flex flex-column align-items-center justify-content-center">
                         <div className="p-3 hero-text">
                             <h5 className="text-white text-uppercase animate__animated animate__bounceInDown">CCTV Benefits</h5>
