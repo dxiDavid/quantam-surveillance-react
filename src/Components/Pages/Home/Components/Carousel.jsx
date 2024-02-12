@@ -37,6 +37,26 @@ const Carousel = () => {
                         </div>
                     </BootstrapCarousel.Caption>
                 </BootstrapCarousel.Item>
+                <BootstrapCarousel.Item>
+                    <img className="w-100" src="img/carousel-2.jpg" alt="Image" />
+                    <BootstrapCarousel.Caption className="d-flex flex-column align-items-center justify-content-center">
+                        <div className="p-3 hero-text">
+                            <h5 className="text-white text-uppercase animate__animated animate__bounceInDown">Be prepared</h5>
+                            <h1 className="display-1 text-white mb-md-4 animate__animated animate__zoomIn">Don't wait for an incident</h1>
+                            <Link to="/Contact" className="btn btn-primary py-md-3 px-md-5 animate__animated animate__slideInRight">Contact Us</Link>
+                        </div>
+                    </BootstrapCarousel.Caption>
+                </BootstrapCarousel.Item>
+                <BootstrapCarousel.Item>
+                    <img className="w-100" src="img/carousel-2.jpg" alt="Image" />
+                    <BootstrapCarousel.Caption className="d-flex flex-column align-items-center justify-content-center">
+                        <div className="p-3 hero-text">
+                            <h5 className="text-white text-uppercase animate__animated animate__bounceInDown">Don't Wait</h5>
+                            <h1 className="display-1 text-white mb-md-4 animate__animated animate__zoomIn">Secure Yourself Today</h1>
+                            <Link to="/Contact" className="btn btn-primary py-md-3 px-md-5 animate__animated animate__slideInRight">Contact Us</Link>
+                        </div>
+                    </BootstrapCarousel.Caption>
+                </BootstrapCarousel.Item>
             </BootstrapCarousel>
         </section>
     );
