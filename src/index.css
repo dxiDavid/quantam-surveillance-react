@@ -327,6 +327,11 @@ h6,
     align-self: center;
 }
 
+.carousel-testimonial-item{
+    background-color: red;
+    min-height: max-content;
+}
+
 .testimonial-carousel{
     display: grid;
     place-items: center;

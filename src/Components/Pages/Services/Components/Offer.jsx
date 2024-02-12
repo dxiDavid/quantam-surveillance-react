@@ -1,9 +1,17 @@
+import { useEffect } from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 
-const Offer = () => {
+export default function Offer(){
+
+  useEffect(() => {
+    AOS.init();
+   }, []);
+
   return (
-    <section className="container-fluid bg-offer my-5 py-5">
+    <section className="container-fluid bg-offer my-5 py-5" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="50">
       <Container className="py-5" >
         <Row className="gx-5 justify-content-center">
           <Col lg={7} className="text-center">
@@ -24,5 +32,3 @@ const Offer = () => {
     </section>
   );
 };
-
-export default Offer;

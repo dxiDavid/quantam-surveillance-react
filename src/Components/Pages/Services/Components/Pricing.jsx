@@ -1,5 +1,8 @@
+import { useEffect } from 'react';
 import { Container, Row } from 'react-bootstrap';
 import PricingCard from './PricingCard';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 
 
 const pricingData = [
@@ -12,11 +15,16 @@ const pricingData = [
 ];
 
 const Pricing = () => {
+
+  useEffect(() => {
+    AOS.init();
+   }, []);
+
   return (
     <>
-      <section className="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s" style={{ marginBottom: '75px' }}>
+      <section className="container-fluid py-5" style={{ marginBottom: '75px' }}>
         <Container>
-          <div className="text-center mx-auto mb-5" style={{ maxWidth: '600px' }}>
+          <div className="text-center mx-auto mb-5" style={{ maxWidth: '600px' }} data-aos="fade-up" data-aos-duration="1500" data-aos-delay="50">
             <h5 className="text-primary text-uppercase" style={{ letterSpacing: '5px' }}>Our Packages</h5>
             <h1 className="display-5 mb-0">Pricing Plan For CCTV Installation Services</h1>
           </div>

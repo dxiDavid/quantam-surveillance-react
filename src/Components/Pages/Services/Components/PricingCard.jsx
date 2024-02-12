@@ -1,9 +1,17 @@
+import { useEffect } from 'react';
 import { Col, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 
 export default function CCTVCard({ cameras, price }) {
+
+  useEffect(() => {
+    AOS.init();
+   }, []);
+
     return (
-      <Col lg={4} className="wow slideInUp" data-wow-delay="0.3s">
+      <Col lg={4} className="" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="150">
         <div className="position-relative border border-primary rounded">
           <div className="bg-primary text-center pt-5 pb-4">
             <img src="img/cctv-3.png" className="cctv-icon" alt="cctv icon" />

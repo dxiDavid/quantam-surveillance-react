@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react';
 import { Container } from 'react-bootstrap';
 import { IoIosArrowBack, IoIosArrowForward  } from "react-icons/io";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 
 const TestimonialSection = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -47,15 +49,19 @@ const TestimonialSection = () => {
     return () => clearInterval(interval);
   }, [testimonials.length]);
 
+  useEffect(() => {
+    AOS.init();
+   }, []);
+
   return (
-    <section className="container-fluid py-5" data-wow-delay="0.1s">
+    <section className="container-fluid py-5">
       <Container>
-        <div className="text-center mx-auto mb-5" style={{ maxWidth: '600px' }}>
-          <h5 className="text-primary text-uppercase" style={{ letterSpacing: '5px' }}>Testimonial</h5>
+        <div className="text-center mx-auto mb-5" style={{ maxWidth: '600px' }} data-aos="fade-down" data-aos-duration="1500" data-aos-delay="50">
+          <h5 className="text-primary text-uppercase" style={{ letterSpacing: '5px' }}>Testimonials</h5>
           <h1 className="display-5 mb-0">What People Say About Our Services</h1>
         </div>
         <div className="testimonial-carousel">
-          <div className="testimonial text-center">
+          <div className="testimonial text-center animate__animated animate__zoomIn" data-aos="fade" data-aos-duration="1500" data-aos-delay="50">
             <img className="testimonial-img img-fluid mx-auto rounded-circle" src={testimonials[currentIndex].image} style={{ width: '100px', height: '100px' }} alt="client photo" />
             <div className="testimonial-text text-light p-4 mt-n5">
               <p className="">{testimonials[currentIndex].text}</p>

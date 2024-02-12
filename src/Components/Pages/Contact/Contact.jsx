@@ -1,15 +1,26 @@
+import { useEffect } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { BsEnvelopeOpen, BsPhoneVibrate } from 'react-icons/bs';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 
-const Contact = () => {
+export default function Contact(){
+
+  useEffect(() => {
+    AOS.init({
+        once: "true",
+        duration: 1500
+    });
+   }, []);
+
   return (
     <section id="" className="container-fluid py-5">
       <Container>
-        <div className="text-center mx-auto mb-5" style={{ maxWidth: '600px' }}>
+        <div className="text-center mx-auto mb-5" style={{ maxWidth: '600px' }} data-aos="fade-up" data-aos-delay="50">
           <h5 className="text-primary text-uppercase" style={{ letterSpacing: '5px' }}>Contact Us</h5>
           <h1 className="display-5 mb-0">Please Feel Free To Contact Us</h1>
         </div>
-        <Row className="justify-content-center">
+        <Row className="justify-content-center" data-aos="fade-up" data-aos-delay="150">
           <Col md={6} className="contact-section">
             <div className=" bg-light rounded p-5">
               <div className="d-flex align-items-center mb-2 contact-details">
@@ -35,6 +46,4 @@ const Contact = () => {
       </Container>
     </section>
   );
-};
-
-export default Contact;
+}
